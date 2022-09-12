@@ -43,6 +43,7 @@ jobs:
           RELEASE=${{ matrix.release }}
           PROJECT=placement
           PROJECT_REF=${{ env.PROJECT_REF }}
+          EXTRAS=
           PROFILES=apache
           DIST_PACKAGES=
           PIP_PACKAGES=httplib2

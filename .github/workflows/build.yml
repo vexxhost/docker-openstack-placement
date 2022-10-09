@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=placement
+          PROJECT_REPO=https://github.com/openstack/placement
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=apache

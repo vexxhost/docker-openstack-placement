@@ -48,7 +48,7 @@ jobs:
           EXTRAS=
           PROFILES=apache
           DIST_PACKAGES=
-          PIP_PACKAGES=httplib2
+          PIP_PACKAGES=cryptography httplib2
         cache-from: type=gha,scope=${{ matrix.release }}
         cache-to: type=gha,mode=max,scope=${{ matrix.release }}
         context: .
